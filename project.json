@@ -1,0 +1,68 @@
+{
+  "name": "MH-UploadFiles-Custom-Orders",
+  "projectId": "f44c9f94-d8fc-466a-a77e-2f00067a3a34",
+  "description": "Blank Process",
+  "main": "Error_handling.xaml",
+  "dependencies": {
+    "Balanceador_SAP": "[1.0.13-alpha.7]",
+    "UiPath.Excel.Activities": "[3.0.1]",
+    "UiPath.Mail.Activities": "[1.20.0]",
+    "UiPath.MicrosoftOffice365.Activities": "[2.5.7]",
+    "UiPath.System.Activities": "[25.2.1]",
+    "UiPath.UIAutomation.Activities": "[23.4.7]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.161.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "2ea60224-dde5-46e9-a005-62b392acdc6c",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Error_handling.xaml",
+      "uniqueId": "9b5d8239-c058-4578-831b-73d557386da0",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
